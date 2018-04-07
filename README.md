@@ -19,7 +19,7 @@ author:        cori schlegel
 version:       1.0.0.0
 
 js:
-{{include the contents of [checker.js] here }}
+{{include the contents of checker.js here }}
 ```
 
 It's probably most effective if you require the customization for all users.
