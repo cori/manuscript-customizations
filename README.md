@@ -6,7 +6,7 @@ Customization code for FogBugz and Manuscript to check the provided password aga
 
 Check the Have I been pwned? API to find the number of times the provided password appears in breaches collected by [Have I been pwned?](https://haveibeenpwned.com).
 
-The code uses the [range search](https://haveibeenpwned.com/API/v2#SearchingPwnedPasswordsByRange) method, and performs all the hashing and comparison in the browser, so the password in question is never sent over the wire. The [cryptoraphic methods](https://developer.mozilla.org/en-US/docs/Web/API/SubtleCrypto/digest) aren't fully supported in all browsers, so this code may not work in some older or mobile browsers.
+The code uses the [range search](https://haveibeenpwned.com/API/v2#SearchingPwnedPasswordsByRange) method, and performs all the hashing and comparison in the browser, so the password in question is never sent over the wire. The [cryptographic methods](https://developer.mozilla.org/en-US/docs/Web/API/SubtleCrypto/digest) aren't fully supported in all browsers, so this code may not work in some older or mobile browsers.
 
 ### Usage
 
